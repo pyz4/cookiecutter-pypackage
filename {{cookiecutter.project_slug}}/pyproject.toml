@@ -1,0 +1,33 @@
+[project]
+authors = [{ name = "pyz4" }]
+dependencies = ["solana", "anchorpy", "setuptools", "cachetools", "asyncache"]
+description = ""
+dynamic = ["classifiers"]
+license = { text = "{{ cookiecutter.open_source_license }}" }
+name = ""
+requires-python = ">=3.10"
+version = ""
+
+[project.urls]
+homepage = ""
+
+[project.optional-dependencies]
+
+[build-system]
+build-backend = "pdm.pep517.api"
+requires = ["pdm-pep517"]
+
+[tool]
+
+[tool.pdm]
+include = ["**/*.json", "tests/*"]
+exclude = ["**/__pycache__"]
+
+[tool.pdm.scripts]
+_.env_file = ".env"
+
+[tool.pdm.dev-dependencies]
+test = []
+
+[tool.pytest.ini_options]
+markers = []
