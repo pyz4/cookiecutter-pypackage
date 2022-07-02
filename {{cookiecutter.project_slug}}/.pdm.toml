@@ -1,0 +1,3 @@
+[strategy]
+update = "eager"
+save = "minimum"
