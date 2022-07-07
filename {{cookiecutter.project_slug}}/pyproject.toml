@@ -4,7 +4,7 @@ dependencies = ["solana", "anchorpy", "setuptools", "cachetools", "asyncache"]
 description = ""
 dynamic = ["classifiers"]
 license = { text = "{{ cookiecutter.open_source_license }}" }
-name = ""
+name = "{{ cookiecutter.project_slug }}"
 requires-python = ">=3.10"
 version = ""
 
